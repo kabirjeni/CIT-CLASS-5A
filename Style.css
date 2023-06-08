@@ -1,0 +1,32 @@
+.box{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:lightblue;
+    text-align:justify;
+    width: 400px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    text-align: center;
+    transition: .035s;
+}
+.box h1{
+
+}
+.box a{
+    background-color: yellowgreen;
+    color: blue;
+    text-decoration: none;
+    padding: 5%;
+    display: inline-block;
+    box-sizing: border-box;
+    transition: .5s ;
+}
+.box a:hover{
+    background-color: rebeccapurple;
+    width: 100%;
+}
+.box:hover{
+    width:600px ;
+    background-color: brown;
+    color:white ;
+}
